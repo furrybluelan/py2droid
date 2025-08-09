@@ -26,7 +26,9 @@ jobs:
         with:
           files: dist/*
           body: |
-            ## 🤖 Automated Release
+            ## 🤖 Automated Release 由Action推送的发行版
 
             This is an automated release.
             For a complete list of changes, see [CHANGELOG.md](module/CHANGELOG.md).
+            这是一个由action自动编译的发行版
+            更详细的更新日志请看 [CHANGELOG.md](module/CHANGELOG.md)
